@@ -51,6 +51,6 @@ class VerifyCode():
 
 ver=VerifyCode()
 ver.get_picture()
-username="2018215338"
+username=input("请输入你的学号：")
 password=input("请输入你的密码：")
 ver.login(username,password)
